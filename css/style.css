@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container-centered{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video{
+    height: calc(100% - 100px);
+    background-color: burlywood;
+}
+
+
+/* bottom section control bar */
+.control{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: darkslategray;
+}
+
+.control-mid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.control > div{
+    border: 1px solid red;
+    width: 200px;
+}
+
+.control > div > div{
+    background-color: blueviolet;
+    border: 1px solid yellow;
+    width: 20px;
+}
+/* end of bottom section control bar */

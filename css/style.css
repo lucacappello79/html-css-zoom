@@ -48,32 +48,36 @@
     justify-content: space-between;
     height: 100px;
     background-color: rgb(34, 34, 34);
-    font-size: 2em;
+    font-size: 2.2em;
+    color: white;
 }
 
 .control-mid{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.control-mid-share{
+    color: rgb(75, 200, 0);
 }
 
 .control-left{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    gap: 30px;
 }
 
 .control-right{
     display: flex;
     justify-content: flex-end;
-}
-
-.control > div{
-    border: 1px solid red;
-    width: 200px;
-}
-
-.control > div > div{
-    background-color: blueviolet;
-    border: 1px solid yellow;
-    width: 20px;
+    align-items: center;
+    padding: 0 15px;
+    background-color: rgb(74, 74, 74);
+    color: red;
+    font-size: 16px;
 }
 /* end of bottom section control bar */

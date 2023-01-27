@@ -16,9 +16,20 @@
     transform: translate(-50%, -50%);
 }
 
+/* sezione main video */
 .video{
+    display: flex;
+    flex-wrap: wrap;
     height: calc(100% - 100px);
     background-color: burlywood;
+}
+
+.member{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: calc(100% / 7 - 5px);
+    height: calc(100% / 5 - 10px);
+    background-color: cornflowerblue;
 }
 
 

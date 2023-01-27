@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -20,8 +20,8 @@
 .video{
     display: flex;
     flex-wrap: wrap;
-    height: calc(100% - 100px - 70px);
-    padding: 50px 50px 20px 50px;
+    height: calc(100% - 100px);
+    padding: 70px 70px 30px 70px;
     background-color: black;
 }
 
@@ -38,7 +38,7 @@
     bottom: 0;
     left: 0;
     color: white;
-    background-color: rgba(102, 112, 124, 0.7);
+    background-color: rgba(102, 112, 124, 0.3);
 }
 
 

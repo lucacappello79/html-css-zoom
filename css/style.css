@@ -35,8 +35,7 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    color: white;
-    
+    color: white;   
 }
 
 .top-controls-text{
@@ -113,3 +112,7 @@ img{
     font-size: 16px;
 }
 /* end of bottom section control bar */
+
+.control-left div:hover, .control-mid div:hover, .video .member .member-name:hover{
+    color: cornflowerblue;
+}
